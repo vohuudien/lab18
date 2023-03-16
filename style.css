@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.bg1{
+  height: 600px;
+  background-image: url(https://gamingtrend.com/wp-content/uploads/2023/02/vlcsnap-2023-02-05-20h28m15s134.jpg);
+  background-color: white;
+  background-size: cover;
+}
+.bg2{
+  height: 600px;
+  background-image: url(https://cdn.whatgadget.net/wp-content/uploads/2023/02/21162456/1345970-Hogwarts-Legacy-HD-Wallpaper.jpg);
+  background-color: white;
+  background-size: cover;
+}
+.bg3{
+  height: 600px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0508/6747/0494/articles/unnamed_a2312f19-ce5b-4e67-ab44-d0a0867d49dc.jpg?v=1676647271);
+  background-color: white;
+  background-size: cover;
+}
+@media (max-width:768px) {
+  .bg1,.bg2,.bg3{
+    height: 400px;
+
+  }
+  .carousel-caption h1{
+    font-size: 24px;
+  }
+  .carousel-caption p{
+    font-size: 12px;
+  }
+  .carousel-caption a{
+    font-size: 14px;
+  }
+}
+@media (min-width:768px){
+  .carousel-caption{
+    bottom: 10rem;
+  }
+}
